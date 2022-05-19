@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <title>Список фільмів</title>
+</head>
+<body>
+    
+    <div id="page">
+        <h1 id="header">Список</h1>
+        <h2>Кращі фільми 2021 року</h2>
+        <ul>
+            <li id="one" class="film"><em>"Сліпота / Бачити"</em> Francis Lawrence</li>
+            <li id="two" class="film"><em>"Сцени з подружнього життя"</em> Hagai Levi</li>
+            <li id="three" class="film"><em>"Убивства в одній будівлі"</em> Jamie Babbit</li>
+            <li id="four" class="film"><em>"Дев'ятеро цілковитих незнайомців"</em> Jonathan Levine</li>
+            <li id="five" class="film"><em>"Разом"</em> Stephen David Daldry</li>
+            <li id="six" class="film"><em>"Радість штучного інтелекту"</em> Dan Hillman</li>
+            <li id="seven" class="film"><em>"Музей Прадо. Скарбниця шедеврів"</em> Valeria Parisi</li>
+            <li id="eight" class="film"><em>"Втрачений Символ"</em> Dan Trachtenberg</li>
+            <li id="nine" class="film"><em>"Тілоохоронець дружини кілера"</em> Патрік Г'юз</li>
+            <li id="ten" class="film"><em>"Мордекай"</em> David Koepp</li>
+        </ul>
+        <div id="newButtonColor">
+            <button id='buttonColor' class="allColor">Змінити колір списку</button>
+        </div>
+        
+        <div id="newItemButton"><button href="#" id="showForm">Добавити новий фільм</button></div>
+        <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Вказати назву фільму..." />
+        <input type="submit" id="addButton" value="Добавити"/>
+        </form>
+        <p id="footer">&copy; KinoFilmUkraine</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

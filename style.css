@@ -1,0 +1,69 @@
+li {
+    padding: 20px;
+    list-style: none;
+    font-weight: bold;
+    text-align: justify;
+    border: 2px solid black;
+}
+ul{
+    margin: 10px;
+    padding: 0;
+}
+h1,h2,p{
+    color: aliceblue;
+}
+
+a{
+color:black ;
+border: 1px solid black;
+background-color: white;
+border-radius: 3px;
+padding: 10px;
+font-family: auto;
+font-size: 20px;
+}
+
+#page {
+    width: 500px;
+    height: auto;
+    background-image: url(iStock.jpg);
+    border: double;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+
+.film{
+background-color: aliceblue;
+}
+
+.fastival{
+    background-color: rgb(162, 23, 218);
+    color: white;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: auto;
+    font-size: 20px;
+    background-color: white;
+}
+button{
+    border: 1px solid blackrgb(119, 0, 0);
+    border-radius: 3px;
+    padding: 10px;
+    font-family: auto;
+    font-size: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+.color{
+    background-color: rgb(248 0 0);
+    color: white;
+}
+
